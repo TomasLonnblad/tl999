@@ -3,7 +3,7 @@ export type SiteConfig = typeof siteConfig
 export const siteConfig = {
   name: "Easy Dashboard",
   description:
-    "Beautifully designed templates built with Shadcn UI and Tailwind CSS.",
+    "Beautifully designed. Built with Shadcn UI and Tailwind CSS.",
   mainNav: [
     {
       title: "Home",
