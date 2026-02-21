@@ -101,7 +101,7 @@ export default function AnimatedLanding() {
               whileHover={{ scale: 1.05, boxShadow: "0 0 15px rgba(139, 92, 246, 0.5)" }}
               whileTap={{ scale: 0.95 }}
             >
-              Get Started
+              Magnetic button
               <ArrowRight className="ml-2 h-5 w-5" />
             </MotionLink>
 
