@@ -63,29 +63,29 @@ const Icons = {
 
 const DATA = {
   navbar: [
-    { href: "/#", icon: HomeIcon, label: "Home" },
+    { href: "/_#_", icon: HomeIcon, label: "_Home_" },
     { href: "#", icon: PlusIcon, label: "Upload Custom Data" },
   ],
   contact: {
     social: {
       GitHub: {
         name: "GitHub",
-        url: "https://github.com/DarkInventor/easy-ui",
+        url: "https://tomaslonnblad.github.io/",
         icon: Icons.github,
       },
       LinkedIn: {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/kathan-mehta-software-dev/",
+        url: "https://tomaslonnblad.github.io/",
         icon: Icons.linkedin,
       },
       X: {
         name: "X",
-        url: "https://x.com/kathanmehtaa",
+        url: "https://tomaslonnblad.github.io/",
         icon: Icons.x,
       },
       email: {
         name: "Send Email",
-        url: "mailto:ktmehta25@gmail.com",
+        url: "mailto: tomaslonnblad@gmail.com",
         icon: Icons.email,
       },
     },
@@ -94,7 +94,7 @@ const DATA = {
 
 export function DockDemo() {
   return (
-    <div className="relative flex h-[500px] w-full flex-col items-center justify-center overflow-hidden rounded-lg min-w-[500px]">      
+    <div className="relative flex h-[500px] w-full flex-col items-center justify-center overflow-hidden rounded-lg min-w-[500px]">
       <TooltipProvider>
         <Dock direction="middle">
           {DATA.navbar.map((item) => (
