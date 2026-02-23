@@ -115,6 +115,15 @@ export default function AnimatedLanding() {
               <Github className="mr-2 h-5 w-5" />
               <span>GitHub</span> 
             </MotionLink>
+      </motion.div>
+
+
+          <motion.div 
+            className="mt-16 grid grid-cols-1 md:grid-cols-3 gap-8 w-full max-w-5xl"
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ duration: 0.8, delay: 1 }}
+          >
 
             
 
