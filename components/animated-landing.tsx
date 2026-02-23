@@ -112,7 +112,7 @@ export default function AnimatedLanding() {
               whileHover={{ scale: 1.05, borderColor: "rgba(255,255,255,0.5)" }}
               whileTap={{ scale: 0.95 }}
             >
-              <className="ml-2 h-5 w-5" />
+              <Github className="ml-2 h-5 w-5" />
               <span>3D shadcn</span> 
             </MotionLink>
       </motion.div>
