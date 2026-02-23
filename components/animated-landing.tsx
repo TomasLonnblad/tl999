@@ -105,15 +105,13 @@ export default function AnimatedLanding() {
               <ArrowRight className="ml-2 h-5 w-5" />
             </MotionLink>
             <MotionLink
-              target="_blank"
-              rel="noreferrer"
-              href={siteConfig.links.github}
-              className={buttonVariants({ variant: "outline", size: "lg" }) + " border-2 border-white/20 text-white font-semibold px-8 py-4 rounded-full"}
-              whileHover={{ scale: 1.05, borderColor: "rgba(255,255,255,0.5)" }}
+              href="/dashboard"
+              className={buttonVariants({ size: "lg", variant: "default" }) + " bg-gradient-to-r from-indigo-500 to-purple-500 text-white font-semibold px-8 py-4 rounded-full"}
+              whileHover={{ scale: 1.05, boxShadow: "0 0 15px rgba(139, 92, 246, 0.5)" }}
               whileTap={{ scale: 0.95 }}
             >
-              <Github className="ml-2 h-5 w-5" />
-              <span>3D shadcn</span> 
+              Magnetic button
+              <ArrowRight className="ml-2 h-5 w-5" />
             </MotionLink>
       </motion.div>
 
