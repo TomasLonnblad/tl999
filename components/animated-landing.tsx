@@ -106,7 +106,7 @@ export default function AnimatedLanding() {
             </MotionLink>
             <MotionLink
               href="https://tomaslonnblad.github.io//tl99999999/"
-              className={buttonVariants({ size: "lg", variant: "" }) + " bg-gradient-to-r from-indigo-500 to-purple-500 text-white font-semibold px-8 py-4 rounded-full"}
+              className={buttonVariants({ size: "lg", variant: "default" }) + " bg-gradient-to-r from-indigo-500 to-purple-500 text-white font-semibold px-8 py-4 rounded-full"}
               whileHover={{ scale: 1.05, boxShadow: "0 0 15px rgba(139, 92, 246, 0.5)" }}
               whileTap={{ scale: 0.95 }}
             >
