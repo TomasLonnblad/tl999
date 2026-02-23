@@ -106,6 +106,38 @@ export default function AnimatedLanding() {
             </MotionLink>
 
 
+
+            <MotionLink
+              href="/dashboard"
+              className={buttonVariants({ size: "lg", variant: "default" }) + " bg-gradient-to-r from-indigo-500 to-purple-500 text-white font-semibold px-8 py-4 rounded-full"}
+              whileHover={{ scale: 1.05, boxShadow: "0 0 15px rgba(139, 92, 246, 0.5)" }}
+              whileTap={{ scale: 0.95 }}
+            >
+              Magnetic button
+              <ArrowRight className="ml-2 h-5 w-5" />
+            </MotionLink>
+
+
+
+
+
+
+            
+
+
+            <MotionLink
+              href="/dashboard"
+              className={buttonVariants({ size: "lg", variant: "default" }) + " bg-gradient-to-r from-indigo-500 to-purple-500 text-white font-semibold px-8 py-4 rounded-full"}
+              whileHover={{ scale: 1.05, boxShadow: "0 0 15px rgba(139, 92, 246, 0.5)" }}
+              whileTap={{ scale: 0.95 }}
+            >
+              Magnetic button
+              <ArrowRight className="ml-2 h-5 w-5" />
+            </MotionLink>
+
+
+            
+
             
           <a href="https://tomaslonnblad.github.io/tleeee">
             <FeatureCard feature="3D" icon={Zap} delay={1.2} /></a>
@@ -114,6 +146,13 @@ export default function AnimatedLanding() {
             <a href="https://tomaslonnblad.github.io/">
             <FeatureCard feature="Open Source" icon={Code} delay={1.6} /></a>
           </motion.div>
+
+
+
+
+
+
+          
         </section>
       </div>
     </div>
