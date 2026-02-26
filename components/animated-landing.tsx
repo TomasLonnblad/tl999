@@ -128,7 +128,7 @@ export default function AnimatedLanding() {
             
           <a href="https://tomaslonnblad.github.io/tleeee">
             <FeatureCard feature="3D" icon={Zap} delay={1.2} /></a>
-             <a href="https://tomaslonnblad-tl9999-tb7w.bolt.host/dashboard/motion4/app">
+             <a href="https://tomaslonnblad-tl1222-95si.bolt.host/dashboard/carousel">
             <FeatureCard feature="Samples" icon={Shield} delay={1.4} /></a>
             <a href="https://tomaslonnblad.github.io/">
             <FeatureCard feature="Open Source" icon={Code} delay={1.6} /></a>
