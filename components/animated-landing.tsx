@@ -116,6 +116,19 @@ export default function AnimatedLanding() {
       </motion.div>
 
 
+            <MotionLink
+              href="https://tomaslonnblad.github.io/tl9999999/"
+              className={buttonVariants({ size: "lg", variant: "default" }) + " bg-gradient-to-r from-indigo-500 to-purple-500 text-white font-semibold px-8 py-4 rounded-full"}
+              whileHover={{ scale: 1.05, boxShadow: "0 0 15px rgba(139, 92, 246, 0.5)" }}
+              whileTap={{ scale: 0.95 }}
+            >
+              3D Model 
+              <ArrowRight className="ml-2 h-5 w-5" />
+            </MotionLink>
+      </motion.div>
+
+          
+
           <motion.div 
             className="mt-16 grid grid-cols-1 md:grid-cols-3 gap-8 w-full max-w-5xl"
             initial={{ opacity: 0 }}
